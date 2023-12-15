@@ -71,7 +71,7 @@ if st.button("ทำนายผล"):
    st.write(Knn_model.predict(x_input))
    out=Knn_model.predict(x_input)
 
-   if out[0]=="Setosa":
+   if out[0]=="Goldenflower":
       st.image("./pic/dogtong.jpg")
       st.header("Setosa")
    elif out[0]=="Versicolor":
