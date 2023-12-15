@@ -1,9 +1,7 @@
 import streamlit as st
-import json
-from streamlit_lottie import st_lottie
 
 
-
+st.balloons()
 st.header("Narongsak Pankerdpon")
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('ณรงค์ศักดิ์ ปานเกิดผล')
